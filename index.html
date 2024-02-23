@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Convert Money</title>
+</head>
+<body>
+        <img id="img-logo" src="./assets/3010eb5f-85c9-42c1-8d77-5ff4b1e5d251.webp" alt="logo-conversor">
+    
+    <main class="menu">
+        
+            <label class="first-form">Converter <b>de</b>
+                <select class="first-select">
+                    <option value="real">R$ Real</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="dolar-americano">US$ Dólar americano</option>
+                    <option value="dolar-canadense">C$ Dólar canadense</option>
+                    <option value="dolar-australiano">A$ Dólar australiano</option>
+                    <option value="libra-esterlina">£ Libra esterlina</option>
+                    <option value="yen">¥ Yen</option>
+                    <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
+                    <option value="franco-suico">SFr Franco suiço</option>
+                </select>
+            </label>
+            <label class="second-form">Converter <b>para</b>
+                <select class="second-select">
+                    <option value="real">R$ Real</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="dolar-americano">US$ Dólar americano</option>
+                    <option value="dolar-canadense">C$ Dólar canadense</option>
+                    <option value="dolar-australiano">A$ Dólar australiano</option>
+                    <option value="libra-esterlina">£ Libra esterlina</option>
+                    <option value="yen">¥ Yen</option>
+                    <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
+                    <option value="franco-suico">SFr Franco suiço</option>
+                </select>
+            </label>
+        
+            <label class="third-form">
+                <p>Valor</p>
+                <input id="first-input" placeholder="Valor">
+            </label>
+            
+            <button class="convert-button">Converter</button>
+        
+        <section class="cartao">
+                <div class="currency-image">
+                    <img src="./assets/Bandeira do BRASIL.png" alt="bandeira-do-brasil">
+                    <p class="currency-to-convert">Real</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
+                </div>
+                <div class="second-image"> 
+                    <img id="seta" src="./assets/474e54d7-b051-45eb-9372-5eb5deda89b0.webp">
+                </div>
+                <div class="currency-image">
+                    <img class="currency-converted-img" src="./assets/dolar-americano.png" alt="bandeira-do-Estados-unidos">
+                    <p class="converted-currency">Dólar americano</p>
+                    <p class="currency-value-converted">$ 0,00</p>
+                </div>
+        </section>
+    </main>   
+</body>
+<script src="./script.js"></script>
+</html>

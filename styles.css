@@ -1,0 +1,148 @@
+* {
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Conversor-de-moeda-online-conhe%C3%A7a-os-5-melhores_695061088.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-logo {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+
+main {
+
+    background-color: rgb(240, 236, 236);
+    width: 20%;
+    height: 600px;
+    margin: 0 auto 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    gap: 12px;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+select {
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu .first-form .first-select,
+.second-select {
+    display: flex;
+    text-align: center;
+}
+
+.third-form #first-input {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.9);
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+section {
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 70%;
+    height: 52%;
+    padding: 20px 0;
+}
+
+.currency-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seta {
+    padding: 10px;
+    width: 70px;
+}
+@media (max-width: 1012px) {
+    #img-logo {
+        width: 20%;
+    }
+    main {
+        width: 30%;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    label {
+        width: 40%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 631px) {
+    main {
+        width: 50%;
+    }
+    
+}
+@media (max-width: 414px) {
+    #img-logo {
+        width: 60%;
+    }
+    main {
+        width: 80%;
+    }
+    section {
+        height: 50%;
+    }
+}
