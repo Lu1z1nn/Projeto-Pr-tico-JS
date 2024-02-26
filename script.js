@@ -1,4 +1,3 @@
-
 const convertButton = document.querySelector(".convert-button")
 const firstSelect = document.querySelector(".first-select")
 const convertedSelect = document.querySelector(".second-select")
@@ -1164,14 +1163,6 @@ function changeCurrency() {
     const currencyImg = document.querySelector(".currency-converted-img")
     const currencyToConvert = document.querySelector(".currency-value-to-convert")
     const convertedCurrency = document.querySelector(".currency-value-converted")
-    // const valueInput = document.querySelector("#first-input")
-
-    // if (firstSelect.value == "euro") {
-    //     valueInput.innerHTML = new Intl.NumberFormat("de-DE", {
-    //         style: "currency",
-    //         currency: "EUR"
-    //     }).format(0)
-    // }
 
     if (firstSelect.value == "real") {
         convertToCurrencyName.innerHTML = "Real"
