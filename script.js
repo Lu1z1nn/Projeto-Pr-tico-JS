@@ -1,6 +1,7 @@
 const convertButton = document.querySelector(".convert-button")
 const firstSelect = document.querySelector(".first-select")
 const convertedSelect = document.querySelector(".second-select")
+const convertMain = document.querySelector(".menu")
 
 function convertValues() {
 
@@ -1325,11 +1326,19 @@ function changeCurrency() {
 
 }
 
+function pushElement() {
+    convertMain.style.left = "50%"
+    convertMain.style.transform = "translateX(-50%)"
+    convertMain.style.transition = "ease-in-out 2s"
+    convertMain.style.cursor = "default"
+}
+
 
 firstSelect.addEventListener("change", changeCurrency)
 convertedSelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
+convertMain.addEventListener("click", pushElement)
 
 
-
-
+''
+''

@@ -11,61 +11,68 @@
 </head>
 <body>
         <img id="img-logo" src="./assets/3010eb5f-85c9-42c1-8d77-5ff4b1e5d251.webp" alt="logo-conversor">
-    
-    <main class="menu">
-        
-            <label class="first-form">Converter <b>de</b>
-                <select class="first-select">
-                    <option></option>
-                    <option value="real">R$ Real</option>
-                    <option value="euro">€ Euro</option>
-                    <option value="dolar-americano">US$ Dólar americano</option>
-                    <option value="dolar-canadense">C$ Dólar canadense</option>
-                    <option value="dolar-australiano">A$ Dólar australiano</option>
-                    <option value="libra-esterlina">£ Libra esterlina</option>
-                    <option value="yen">¥ Yen</option>
-                    <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
-                    <option value="franco-suico">SFr Franco suiço</option>
-                </select>
-            </label>
-            <label class="second-form">Converter <b>para</b>
-                <select class="second-select">
-                    <option></option>
-                    <option value="real">R$ Real</option>
-                    <option value="euro">€ Euro</option>
-                    <option value="dolar-americano">US$ Dólar americano</option>
-                    <option value="dolar-canadense">C$ Dólar canadense</option>
-                    <option value="dolar-australiano">A$ Dólar australiano</option>
-                    <option value="libra-esterlina">£ Libra esterlina</option>
-                    <option value="yen">¥ Yen</option>
-                    <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
-                    <option value="franco-suico">SFr Franco suiço</option>
-                </select>
-            </label>
-        
-            <label class="third-form">
-                <p>Valor</p>
-                <input id="first-input" placeholder="Valor">
-            </label>
+    <div class="all">
+        <main class="menu">
             
-            <button class="convert-button">Converter</button>
-        
-        <section class="cartao">
-                <div class="currency-image">
-                    <img class="currency-to-convert" src="./assets/Bandeira do BRASIL.png" alt="bandeira-do-brasil">
-                    <p class="currency-convert-to">Real</p>
-                    <p class="currency-value-to-convert">R$ 0,00</p>
-                </div>
-                <div class="second-image"> 
-                    <img id="seta" src="./assets/474e54d7-b051-45eb-9372-5eb5deda89b0.webp">
-                </div>
-                <div class="currency-image">
-                    <img class="currency-converted-img" src="./assets/united-states.png" alt="bandeira-do-Estados-unidos">
-                    <p class="converted-currency">Dólar americano</p>
-                    <p class="currency-value-converted">$ 0,00</p>
-                </div>
-        </section>
-    </main>   
+                <label class="first-form">Converter <b>de</b>
+                    <select class="first-select">
+                        <option></option>
+                        <option value="real">R$ Real</option>
+                        <option value="euro">€ Euro</option>
+                        <option value="dolar-americano">US$ Dólar americano</option>
+                        <option value="dolar-canadense">C$ Dólar canadense</option>
+                        <option value="dolar-australiano">A$ Dólar australiano</option>
+                        <option value="libra-esterlina">£ Libra esterlina</option>
+                        <option value="yen">¥ Yen</option>
+                        <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
+                        <option value="franco-suico">SFr Franco suiço</option>
+                    </select>
+                </label>
+                <label class="second-form">Converter <b>para</b>
+                    <select class="second-select">
+                        <option></option>
+                        <option value="real">R$ Real</option>
+                        <option value="euro">€ Euro</option>
+                        <option value="dolar-americano">US$ Dólar americano</option>
+                        <option value="dolar-canadense">C$ Dólar canadense</option>
+                        <option value="dolar-australiano">A$ Dólar australiano</option>
+                        <option value="libra-esterlina">£ Libra esterlina</option>
+                        <option value="yen">¥ Yen</option>
+                        <option value="yuan-renmimbi">¥ Yuan renmimbi</option>
+                        <option value="franco-suico">SFr Franco suiço</option>
+                    </select>
+                </label>
+            
+                <label class="third-form">
+                    <p>Valor</p>
+                    <input id="first-input" placeholder="">
+                </label>
+                
+                <button class="convert-button">Converter</button>
+            
+            <section class="cartao">
+                    <div class="currency-image">
+                        <img class="currency-to-convert" src="./assets/Bandeira do BRASIL.png" alt="bandeira-do-brasil">
+                        <div>
+                            <p class="currency-convert-to">Real</p>
+                            <p class="currency-value-to-convert">R$ 0,00</p>
+                        </div>
+                    </div>
+                    <div class="second-image"> 
+                        <img id="seta" src="./assets/474e54d7-b051-45eb-9372-5eb5deda89b0.webp">
+                    </div>
+                    <div class="currency-image">
+                        <img class="currency-converted-img" src="./assets/united-states.png" alt="bandeira-do-Estados-unidos">
+                        <div>
+                            <p class="converted-currency">Dólar americano</p>
+                            <p class="currency-value-converted">$ 0,00</p>
+                        </div>
+                        
+                    </div>
+                </section>
+        </main>
+        <button class="btn-push">></button>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>

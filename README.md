@@ -40,4 +40,4 @@
 <img src="https://github.com/Lu1z1nn/Projeto-Pr-tico-JS/assets/146566673/372d20ec-9bde-4442-935c-98e2200e80f0">
 </div>
 <br>
-<p>Portanto, a intenção desse programa é fornecer ao usuário uma forma rápida, fácil e otimizada de descobrir o valor desejado em vários tipos de moeda.</p>
+<p>Portanto, a intenção desse programa é fornecer ao usuário uma forma rápida, fácil e otimizada de descobrir o valor desejado em vários tipos de moedas.</p>
