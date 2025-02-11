@@ -6,20 +6,15 @@
     outline: none;
 }
 
-body {
-    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Conversor-de-moeda-online-conhe%C3%A7a-os-5-melhores_695061088.jpg);
-    background-size: cover;
-    background-position: center;
+body {  
     width: 100vw;
     height: 100vh;
-}
-
-#img-logo {
-    width: 280px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://content.btgpactual.com/wp-content/uploads/2024/06/cotacao-do-dolar.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 .all {
@@ -30,25 +25,27 @@ body {
 
 main {
 
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px); 
     width: 20%;
-    margin: 0 auto 20px;
-    padding: 20px 0px; 
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    border: 3px solid black;
     border-radius: 30px;
     gap: 12px;
     position: absolute;
     left: -18%;
     cursor: pointer;
 }
+main:hover {
+    background-color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
 
 label {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 20px;
+    color: black;
+    font-size: 30px;
     font-weight: 400;
     border-radius: 20px;
 }
@@ -56,7 +53,7 @@ label {
 select {
     border-radius: 4px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -71,7 +68,7 @@ select {
     align-items: center;
     text-align: center;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 4px;
 }
 
@@ -99,7 +96,7 @@ select {
 }
 
 section {
-    border: 3px solid rgba(0, 0, 0, 0.3);
+
     border-radius: 10px;
     width: 70%;
     height: 100%;
@@ -122,17 +119,11 @@ section {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
 }
-
-.btn-push {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    margin-left: 40px;
-    width: 40px;
-    height: 60px;
-    font-size: 40px;
+section p {
+    font-size: 20px;
+    font-weight: 500;
 }
+
 @media (max-width: 1012px) {
     #img-logo {
         width: 20%;

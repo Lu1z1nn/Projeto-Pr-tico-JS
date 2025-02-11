@@ -1331,6 +1331,8 @@ function pushElement() {
     convertMain.style.transform = "translateX(-50%)"
     convertMain.style.transition = "ease-in-out 2s"
     convertMain.style.cursor = "default"
+    convertMain.style.backgroundColor = "transparent"
+    
 }
 
 
